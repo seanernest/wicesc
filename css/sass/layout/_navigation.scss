@@ -12,7 +12,7 @@
   @include transition(height .3s ease-in-out);
 
   &__holder {
-    background-color: #8c3f0d;
+    background-color: $bg-dark;
   }
 
   @include bp-lg-up {
