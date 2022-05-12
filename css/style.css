@@ -52,6 +52,9 @@
 .bg-dark {
   background-color: #1b1c1f; }
 
+.bg-green {
+  background-color: #325d41; }
+
 .last {
   margin-bottom: 0 !important; }
 
@@ -2184,7 +2187,7 @@ img.mfp-img {
     .widget_categories li a:hover {
       color: #fc6d41; }
 
-/* Widget Newsletter 
+/* Widget Newsletter
 -------------------------------------------------------*/
 .widget_mc4wp_form_widget {
   -webkit-box-shadow: none !important;

@@ -12,7 +12,7 @@
   @include transition(height .3s ease-in-out);
 
   &__holder {
-    background-color: $bg-dark;
+    background-color: #8c3f0d;
   }
 
   @include bp-lg-up {
@@ -195,7 +195,7 @@ header .flex-child.flex-right {
 
   @include bp-md-up {
     margin-left: 60px;
-  }  
+  }
 }
 
 
@@ -229,7 +229,7 @@ header .flex-child.flex-right {
 
 /* Nav Search
 -------------------------------------------------------*/
-.nav__search {  
+.nav__search {
 
   &-box {
     width: 300px;
@@ -293,8 +293,8 @@ header .flex-child.flex-right {
 
     .ui-close {
       font-size: 20px;
-    }    
-  }  
+    }
+  }
 }
 
 
@@ -486,9 +486,9 @@ input.nav__search-mobile-input:-ms-input-placeholder {
 
     &:last-child {
       border-bottom: 0;
-    }  
-  } 
-  
+    }
+  }
+
   &-dropdown {
     overflow: hidden;
     display: none;
@@ -504,7 +504,7 @@ input.nav__search-mobile-input:-ms-input-placeholder {
       color: $nav-color;
     }
   }
-  
+
   &-toggle {
     position: absolute;
     top: 0;
@@ -555,7 +555,7 @@ input.nav__search-mobile-input:-ms-input-placeholder {
       color: #fff;
       background-color: darken($bg-dark, 3%);
     }
-  }   
+  }
 }
 
 
