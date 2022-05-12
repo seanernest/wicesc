@@ -367,10 +367,10 @@ var scores = [
     0,0, // otto
     0 ];
 var highScores = [
-    10000,10000, // pacman
-    10000,10000, // mspac
-    10000,10000, // cookie
-    10000,10000, // otto
+    0,0, // pacman
+    0,0, // mspac
+    0,0, // cookie
+    0,0, // otto
     ];
 
 var getScoreIndex = function() {
