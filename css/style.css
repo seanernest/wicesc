@@ -2481,7 +2481,8 @@ figcaption {
     display: block;
     float: left;
     margin-right: 30px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    width: 100px; }
     @media only screen and (max-width: 575px) {
       .entry-author .avatar {
         width: 50px;
