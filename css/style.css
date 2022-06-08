@@ -14,6 +14,49 @@
 9.Helper CLasses
 
 /*-------------------------------------------------------*/
+.dcr-1plxoa0 {
+ width:220px;
+ margin-left:10px;
+ margin-right:10px;
+ padding-left:10px;
+ padding-right:10px;
+ clear:left;
+ float:left;
+ font-family:GH Guardian Headline,Guardian Egyptian Web,Georgia,serif;
+ font-size:1.25rem;
+ line-height:1.15;
+ font-weight:300;
+ line-height:25px;
+ position:relative;
+ background-color:#fbe6d5;
+ padding-top:6px;
+ padding-bottom:12px;
+ margin-bottom:28px;
+}
+@media (max-width: 374px) {
+ .dcr-1plxoa0 {
+  width:100%;
+ }
+}
+.dcr-1plxoa0:after {
+ left:10px;
+ border-radius:0 0 25px;
+}
+.dcr-1plxoa0:after {
+ content:'';
+ width:25px;
+ height:25px;
+ bottom:-25px;
+ position:absolute;
+ background-color:#fbe6d5;
+}
+.dcr-f9ay0g {
+ height:1em;
+ width:1.5em;
+ margin-right:3px;
+ vertical-align:baseline;
+ fill:#C74600;
+}
 /*-------------------------------------------------------*/
 /* General
 /*-------------------------------------------------------*/
@@ -357,11 +400,13 @@ address {
     text-align: center; } }
 
 blockquote {
-  padding: 40px;
-  background-color: #f7f9fa;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-top: 40px; }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  }
   blockquote p {
     font-size: 18px;
     line-height: 28px;
